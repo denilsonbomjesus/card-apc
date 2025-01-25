@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diretoria da APC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1024px;
+      margin: 20px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .header img {
+      width: 150px;
+    }
+
+    .header h1 {
+      font-size: 24px;
+      color: #004080;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      position: relative;
+      text-align: center;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .card .caption {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .card:hover .caption {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .card a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>DIRETORIA DA APC (2023-2025)</h1>
+    </div>
+    <div class="grid">
+      <!-- Card Example -->
+      <div class="card">
+        <img src="logo-path-here.png" alt="Logo da APC">
+        <div class="caption">ADICIONAL<br>CARGO</div>
+        <a href="https://example.com/adicional"></a>
+      </div>
+      <div class="card">
+        <img src="image1-path-here.jpg" alt="Anderson Gomes">
+        <div class="caption">ANDERSON GOMES<br>PRESIDENTE</div>
+        <a href="https://example.com/anderson-gomes"></a>
+      </div>
+      <div class="card">
+        <img src="image2-path-here.jpg" alt="Maronita Rosenblatt">
+        <div class="caption">MARONITA ROSENBLATT<br>1ª VICE-PRESIDENTE</div>
+        <a href="https://example.com/maronita-rosenblatt"></a>
+      </div>
+      <div class="card">
+        <img src="image3-path-here.jpg" alt="Helinando Oliveira">
+        <div class="caption">HELINANDO OLIVEIRA<br>2º VICE-PRESIDENTE</div>
+        <a href="https://example.com/helinando-oliveira"></a>
+      </div>
+      <div class="card">
+        <img src="image4-path-here.jpg" alt="Alex Sandro">
+        <div class="caption">ALEX SANDRO<br>SECRETÁRIO GERAL</div>
+        <a href="https://example.com/alex-sandro"></a>
+      </div>
+      <div class="card">
+        <img src="image5-path-here.jpg" alt="Edvânia Torres">
+        <div class="caption">EDVÂNIA TORRES<br>1ª SECRETÁRIA</div>
+        <a href="https://example.com/edvania-torres"></a>
+      </div>
+      <div class="card">
+        <img src="image6-path-here.jpg" alt="Leonor Maia">
+        <div class="caption">LEONOR MAIA<br>2ª SECRETÁRIA</div>
+        <a href="https://example.com/leonor-maia"></a>
+      </div>
+      <div class="card">
+        <img src="image7-path-here.jpg" alt="Lourdinha Florêncio">
+        <div class="caption">LOURDINHA FLORÊNCIO<br>TESOUREIRA</div>
+        <a href="https://example.com/lourdinha-florencio"></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
